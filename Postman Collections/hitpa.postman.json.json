@@ -1513,5 +1513,35 @@
 			],
 			"id": "dca0d9f8-521e-4be3-aa41-2634f6d4f52b"
 		}
+	],
+	"auth": {
+		"type": "oauth2",
+		"oauth2": {
+			"addTokenTo": "header"
+		}
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "9d7b4af8-f3c7-46f0-9280-82d30e6cc052",
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "f457bb96-c4de-43bf-a12b-3b4e00c1ef37",
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
 	]
 }
